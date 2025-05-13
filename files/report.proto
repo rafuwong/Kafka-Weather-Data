@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+// Messages
+
+message Report {
+	string date = 1;
+	double degrees = 2;
+}
